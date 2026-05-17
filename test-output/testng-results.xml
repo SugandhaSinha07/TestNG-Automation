@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T11:15:22 IST" name="Loan Department" finished-at="2026-04-20T11:15:22 IST" duration-ms="345">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.demo3()[pri:0, instance:test.Day2@595b007d]" name="demo3" class="test.Day2"/>
+        <method signature="day4.LoginApiHomeLoan()[pri:0, instance:test.day4@dd8ba08]" name="LoginApiHomeLoan" class="test.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-04-20T11:15:22 IST" name="Personal Loan" finished-at="2026-04-20T11:15:22 IST" duration-ms="133">
+      <class name="test.Day2">
+        <test-method signature="demo3()[pri:0, instance:test.Day2@595b007d]" started-at="2026-04-20T11:15:22 IST" name="demo3" finished-at="2026-04-20T11:15:22 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+      </class> <!-- test.Day2 -->
+      <class name="test.day4">
+        <test-method signature="LoginApiHomeLoan()[pri:0, instance:test.day4@dd8ba08]" started-at="2026-04-20T11:15:22 IST" name="LoginApiHomeLoan" finished-at="2026-04-20T11:15:22 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiHomeLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.day4@dd8ba08]" started-at="2026-04-20T11:15:22 IST" name="MobileLoginHomeLoan" finished-at="2026-04-20T11:15:22 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebloginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:test.day4@dd8ba08]" started-at="2026-04-20T11:15:22 IST" name="WebloginHomeLoan" finished-at="2026-04-20T11:15:22 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Key' is required by @Test on method WebloginHomeLoan but has not been marked @Optional or defined
+in E:\AutomationProject\TestNgProject\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Key' is required by @Test on method WebloginHomeLoan but has not been marked @Optional or defined
+in E:\AutomationProject\TestNgProject\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- test.day4 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2026-04-20T11:15:22 IST" name="Car Loan" finished-at="2026-04-20T11:15:22 IST" duration-ms="77">
+      <class name="test.Day3">
+        <test-method is-config="true" signature="MobileSignInHomeLoan()[pri:0, instance:test.Day3@662ac478]" started-at="2026-04-20T11:15:22 IST" name="MobileSignInHomeLoan" finished-at="2026-04-20T11:15:22 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignInHomeLoan -->
+        <test-method signature="LoginAPIHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Day3@662ac478]" started-at="2026-04-20T11:15:22 IST" name="LoginAPIHomeLoan" data-provider="getData" finished-at="2026-04-20T11:15:22 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstuserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="LoginAPIHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Day3@662ac478]" started-at="2026-04-20T11:15:22 IST" name="LoginAPIHomeLoan" data-provider="getData" finished-at="2026-04-20T11:15:22 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="LoginAPIHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Day3@662ac478]" started-at="2026-04-20T11:15:22 IST" name="LoginAPIHomeLoan" data-provider="getData" finished-at="2026-04-20T11:15:22 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirduserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.Day3@662ac478]" started-at="2026-04-20T11:15:22 IST" name="MobileLoginHomeLoan" finished-at="2026-04-20T11:15:22 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at test.Day3.MobileLoginHomeLoan(Day3.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebLoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Day3@662ac478]" started-at="2026-04-20T11:15:22 IST" name="WebLoginHomeLoan" finished-at="2026-04-20T11:15:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalLogin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[personal2342Login.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- test.Day3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

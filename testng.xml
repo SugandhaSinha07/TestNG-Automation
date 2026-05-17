@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Loan Department">
+
+    <listeners>
+        <listener class-name="test.Listeners"/>
+    </listeners>
+
+    <parameter name="URL" value="qaclickacademy.com"/>
+
+    <test name="Personal Loan" arallel="tests" thread-count="2">
+        <parameter name="URL" value="qaclickacademy.com"/>
+        <parameter name="APIKey/UserName" value="1234"/>
+        <classes>
+            <class name="test.day4"/>
+            <class name="test.Day2"/>
+        </classes>
+    </test> 
+    
+    <test name="Car Loan">
+        <parameter name="URL" value="personalLogin.com"/>
+        <parameter name="Key" value="personal2342Login.com"/>
+        <classes>
+            <class name="test.Day3"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]">
+  <parameter name="URL" value="qaclickacademy.com"/>
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Personal Loan(failed)">
+    <parameter name="APIKey/UserName" value="1234"/>
+    <parameter name="URL" value="qaclickacademy.com"/>
+    <classes>
+      <class name="test.day4">
+        <methods>
+          <include name="WebloginHomeLoan"/>
+        </methods>
+      </class> <!-- test.day4 -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+  <test thread-count="5" name="Car Loan(failed)">
+    <parameter name="URL" value="personalLogin.com"/>
+    <parameter name="Key" value="personal2342Login.com"/>
+    <classes>
+      <class name="test.Day3">
+        <methods>
+          <include name="MobileLoginHomeLoan"/>
+          <include name="MobileSignInHomeLoan"/>
+        </methods>
+      </class> <!-- test.Day3 -->
+    </classes>
+  </test> <!-- Car Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
