@@ -1,0 +1,9 @@
+# TestNG generated reports
+test-output/
+
+# Maven / build output
+target/
+bin/
+
+# Logs
+*.log
